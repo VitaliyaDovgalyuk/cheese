@@ -1,0 +1,101 @@
+<!DOCTIPE>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<title>CheeseProject</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	rel="stylesheet"
+	"HELP.md"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"></script>
+
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body class="a">
+
+	<nav class="navbar navbar-expand-lg fixed-top navbar-default navbar-dark">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">CHEESE</a>
+			</div>
+
+			<div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Main</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<section class="main">
+
+		<div class="title">
+			<div class="row">
+				<div class="col">
+					<h1 class="col-6 col-sm-12 col-md-12 titlefont">Cheese Comunity</h1>
+				</div>
+			</div>
+		</div>
+		<div class="main-container">
+			<form>
+				<div class="form-group row">
+					<label for="query" class="col-sm-8 col-md-6 col-form-label">Keyword</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" name="query"
+							placeholder="Search"><input class="col-sm-4 col-md-4" type="button" id="button"
+							value="Generate" onclick="callApi(query)">
+					</div>
+				</div>
+				<div  class="form-group row">
+					<label for="query" class="col-sm-8 col-form-label">User ID</label>
+					<div class="col-sm-10">
+						<input  type="text" class="form-control" name="query"
+							placeholder="Type gif name">
+						 <input type="button" 
+							id="save" value="Save Gif" onclick="callApi(query)"> <input
+							type="button" id="show" value="Show Database"
+							onclick="location.href='/show'">
+					</div>
+				</div>
+			</form>
+		</div>
+
+
+		<!-- <form id="manifest-form">
+				<label id="label2" for="user_id">User id</label> <input id="input2"
+					name="user_id" type="hidden">
+			</form> -->
+
+		<div class="img-container">
+			<img id="genImage" src="">
+		</div>
+
+		<div class="thumb">
+			<img width="250px" height="250px"
+				src="https://i.pinimg.com/564x/2b/05/62/2b056286ceec10c8f23c2eb5af3f14d7.jpg"
+				class="img-rounded col-lg-3"> <img width="250px" height="250px"
+				src="https://i.pinimg.com/564x/60/8e/26/608e26339226da5d65c0e1369e1be903.jpg"
+				class="img-rounded col-lg-3"> <img width="250px" height="250px"
+				src="https://i.pinimg.com/564x/ae/c0/22/aec022b30070a91bc127e42835545192.jpg"
+				class="img-rounded col-lg-3">
+		</div>
+		<div>
+			<blockquote class="blockquote-reverse">Age is of no
+				importance unless you are a cheese.</blockquote>
+		</div>
+	</section>
+	<script src="js/main.js"></script>
+</body>
+</html>

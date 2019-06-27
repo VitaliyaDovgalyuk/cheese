@@ -1,0 +1,5 @@
+com\cheese\cheese\Catalog.class
+com\cheese\cheese\CatalogService.class
+com\cheese\cheese\Application.class
+com\cheese\cheese\CatalogRepository.class
+com\cheese\cheese\AppController.class

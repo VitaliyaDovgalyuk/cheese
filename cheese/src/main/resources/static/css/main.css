@@ -1,0 +1,59 @@
+body {
+	background-image: url("/images/bg2.png");
+	margin: 0 auto; 
+}
+.title{
+	background-color: #e6b3b3;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+	height: 20%;
+}
+.main-container {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 5em;
+	padding: 8%;
+}
+.titlefont{
+	font-size:60px;
+	text-align: center;
+	font-family: 'Mali', cursive;
+}
+.img-container {
+	display: flex;
+	margin: 0 auto;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 25em;
+
+}   
+.thumb {
+	display: flex;
+	margin: 0 auto;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.head {
+	color: #ffddcc ;
+}
+
+.main{
+	max-width: 65%;
+	margin: 0 auto;
+	background-image: url("/images/section.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-shadow:
+	  	 0 1px 4px rgba(0, 0, 0, .3),
+	  	 -23px 0 20px -23px rgba(0, 0, 0, .8),
+	 	 23px 0 20px -23px rgba(0, 0, 0, .8),
+		 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+
+
+
